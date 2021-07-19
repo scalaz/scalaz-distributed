@@ -73,7 +73,7 @@ lazy val examples = project
     scalacOptions --= Seq("-Ywarn-dead-code", "-Wdead-code"),
     libraryDependencies ++= Seq(
       "dev.zio"        %% "zio-logging-slf4j" % ZioLoggingVersion,
-      "ch.qos.logback" % "logback-classic"    % "1.2.3"
+      "ch.qos.logback" % "logback-classic"    % "1.2.4"
     )
   )
 
